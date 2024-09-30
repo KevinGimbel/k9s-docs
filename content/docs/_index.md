@@ -1,12 +1,11 @@
 ---
 title: Welcome to k9s-docs
 linkTitle: Documentation
-type: docs
 menu:
     main:
         weight: 30
 toc_hide: true
-weight: 0
+weight: 1
 ---
 
 Here you can find all the information about configuring and using k9s!

@@ -3,8 +3,9 @@ languageCode: 'en-us'
 title: k9s Documentation PREVIEW
 
 contentDir: content
+
 # Enabled .Lastmod for git info
-# enableGitInfo: true
+enableGitInfo: true
 
 params:
   ui:

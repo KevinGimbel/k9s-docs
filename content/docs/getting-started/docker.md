@@ -1,6 +1,7 @@
 ---
 title: "Running with Docker"
 linkTitle: "Running with Docker"
+type: docs
 weight: 15
 description: Learn how to use k9s in Docker
 ---
