@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Custom Shortcodes on k9s Documentation PREVIEW</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/</link><description>Recent content in Custom Shortcodes on k9s Documentation PREVIEW</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://k9sdoc.keg.im/docs/internal/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>content-info</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</guid><description>&lt;p>A note-like container providing additional context or important information.&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Param&lt;/th>
+ &lt;th style="text-align: left">Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;code>title&lt;/code>&lt;/td>
+ &lt;td style="text-align: left">The title to put infront of the text. Can be empty.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;code>color&lt;/code>&lt;/td>
+ &lt;td style="text-align: left">A color variation. Currently supports &lt;code>error&lt;/code>, &lt;code>warning&lt;/code> or &lt;code>info&lt;/code>.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;section class="k9s-content-info k9s-content-info-info">
+ &lt;div class="k9s-content-info__inner">
+ 
+ &lt;span class="k9s-content-info__title">Info&lt;/span>
+ 
+ 
+This is a content-info block wiht "info" colors.
+
+ &lt;/div>
+&lt;/section>
+&lt;section class="k9s-content-info k9s-content-info-warning">
+ &lt;div class="k9s-content-info__inner">
+ 
+ &lt;span class="k9s-content-info__title">Warning&lt;/span>
+ 
+ 
+This is a content-info block wiht "warning" colors.
+
+ &lt;/div>
+&lt;/section>
+&lt;section class="k9s-content-info k9s-content-info-error">
+ &lt;div class="k9s-content-info__inner">
+ 
+ &lt;span class="k9s-content-info__title">Error&lt;/span>
+ 
+ 
+This is a content-info block wiht "error" colors.
+
+ &lt;/div>
+&lt;/section></description></item></channel></rss>
