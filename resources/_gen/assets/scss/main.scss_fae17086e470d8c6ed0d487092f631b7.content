@@ -2,8 +2,8 @@
 .td-content p code, .td-content li > code, .td-content table code {
   color: #f760b1 !important; }
 
-.k9s-content-info + .k9s-content-info {
-  margin-top: 1rem; }
+.k9s-content-info {
+  margin: 1rem 0; }
 
 .k9s-content-info-warning {
   background-color: var(--bs-warning-bg-subtle);
