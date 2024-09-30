@@ -1,11 +1,8 @@
 baseURL: 'https://k9sdoc.keg.im'
 languageCode: 'en-us'
+title: k9s Documentation PREVIEW
 
-languages:
-  en:
-    languageName: English
-    title: k9s Documentation PREVIEW
-
+contentDir: content
 # Enabled .Lastmod for git info
 # enableGitInfo: true
 
@@ -38,14 +35,6 @@ params:
 # and copy the relevant HTML into the "pre" field.
 menu:
   main:
-    - name: "Home"
-      weight: 10
-      url: "/"
-      pre: "<i class='fa-solid fa-house'></i>" # House Icon
-    - name: "Docs"
-      weight: 20
-      url: "/docs/"
-      pre: "<i class='fa-solid fa-book'></i>" # Book Icon
     - name: "GitHub"
       weight: 50
       url: "https://github.com/derailed/k9s"

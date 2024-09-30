@@ -4,7 +4,7 @@ linkTitle: Home
 ---
 
 {{< blocks/cover title="Welcome to the k9s-docs!" image_anchor="top" height="auto" color="primary" >}}
-k9s is a feature-rich, minimalistic, beautiful terminal UI for kubernetes.
+{{< readfile "/shared/k9s-about-short.md" >}}
 
 Want to learn how to use k9s? Jump right into the [Docs](docs)!
 {{< /blocks/cover >}}
@@ -15,7 +15,7 @@ Want to learn how to use k9s? Jump right into the [Docs](docs)!
 
 ## Who let the pods out? 🐕
 
-K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+{{< readfile "/shared/k9s-about-long.md" >}}
 {{% / blocks/section %}}
 
 {{% blocks/section color="white" %}}

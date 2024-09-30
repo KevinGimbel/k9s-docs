@@ -1,7 +1,8 @@
 ---
 title: "Configuration"
 linkTitle: "Learn how to configure k9s"
-weight: 10
+type: docs
+weight: 20
 description: >
     Everything you ever wanted to know about configuring k9s!
 ---
@@ -62,3 +63,8 @@ This is still in flux and will change while in pre-release stage!
 | thresholds.cpu.warn                   | Global memory/cpu thresholds. When set will alert when thresholds are met. | |
 | thresholds.memory.critical            | Global memory/cpu thresholds. When set will alert when thresholds are met.|
 | thresholds.memory.warn                | Global memory/cpu thresholds. When set will alert when thresholds are met.|
+
+
+## Example config file
+
+{{< readfile "/shared/k9s-default-config.md" >}}

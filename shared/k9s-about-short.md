@@ -1,0 +1,1 @@
+k9s is a feature-rich, minimalistic, beautiful terminal UI for kubernetes.
