@@ -7,15 +7,14 @@ description: >
     Define custom aliases to reach resources faster
 ---
 
-## Auto Suggestion
 
-k9s command mode supports autosuggestions. Suggestions are based on supported Kubernetes resource in singular/plural as well as short names and command aliases as describe below. The command mode supports the following keys:
+## Quick overview
 
-| Key                | Description                                |
-|--------------------|--------------------------------------------|
-| ⬆️ ⬇️               | Navigate up or down thru the suggestions   |
-| Ctrl-w, Ctrl-u     | Clear out the command                      |
-| Tab, Ctrl-f, ➡️     | Accept the suggestion                      |
+Config file
+: `$XDG_DATA_HOME/k9s/aliases.yaml`
+
+Format
+: `aliases` top-level object with `key-value` pairs
 
 ## Aliases
 
