@@ -1,6 +1,6 @@
 ---
-title: "Configuration"
-linkTitle: "Learn how to configure k9s"
+title: "Learn how to configure k9s"
+linkTitle: "Configuration"
 type: docs
 weight: 20
 description: >

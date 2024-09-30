@@ -1,7 +1,7 @@
 ---
 title: "Installation"
 linkTitle: "Installation"
-weight: 1
+weight: 10
 description: All you need to know to install k9s
 ---
 

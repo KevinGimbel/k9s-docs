@@ -1,6 +1,7 @@
 ---
 title: "k9s docs"
 linkTitle: Home
+weight: 0
 ---
 
 {{< blocks/cover title="Welcome to the k9s-docs!" image_anchor="top" height="auto" color="primary" >}}
