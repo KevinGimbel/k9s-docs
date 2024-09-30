@@ -3,6 +3,7 @@ title: "Internal documentation for the k9s docs Team"
 linkTitle: Internal
 weight: 0
 toc_hide: true
+hide_summary: true
 ---
 
 {{< content-info color="info" >}}
