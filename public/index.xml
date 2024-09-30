@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>k9s docs on k9s Documentation PREVIEW</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kevingimbel.github.io/k9s-docs/</link>
     <description>Recent content in k9s docs on k9s Documentation PREVIEW</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kevingimbel.github.io/k9s-docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

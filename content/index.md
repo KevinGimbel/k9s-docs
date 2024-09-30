@@ -6,7 +6,7 @@ linkTitle: Home
 {{< blocks/cover title="Welcome to the k9s-docs!" image_anchor="top" height="auto" color="primary" >}}
 k9s is a feature-rich, minimalistic, beautiful terminal UI for kubernetes.
 
-Want to learn how to use k9s? Jump right into the [Docs](/docs/)!
+Want to learn how to use k9s? Jump right into the [Docs](docs)!
 {{< /blocks/cover >}}
 
 {{< blocks/section type="row" color="primary" >}}
