@@ -3,45 +3,60 @@ Binaries for Linux, Windows and Mac are available as tarballs in the &lt;a href=
 &lt;h2 id="macos">MacOS&lt;/h2>
 &lt;h3 id="homebrew">Homebrew&lt;/h3>
 &lt;p>Via &lt;a href="https://brew.sh/">Homebrew&lt;/a> for macOS or Linux&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>brew install derailed/k9s/k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>brew install derailed/k9s/k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="macports">MacPorts&lt;/h3>
 &lt;p>Via &lt;a href="https://www.macports.org">MacPorts&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>sudo port install k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>sudo port install k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="linux">Linux&lt;/h2>
 &lt;h3 id="snap">Snap&lt;/h3>
 &lt;p>Via &lt;a href="https://snapcraft.io/k9s">snap&lt;/a> for Linux&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>snap install k9s --devmode
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>snap install k9s --devmode
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="arch">Arch&lt;/h3>
 &lt;p>On Arch Linux&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>pacman -S k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>pacman -S k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="opensuse">OpenSUSE&lt;/h3>
 &lt;p>On OpenSUSE Linux distribution&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>zypper install k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>zypper install k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="bsd">BSD&lt;/h2>
 &lt;p>On FreeBSD&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>pkg install k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>pkg install k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="windows">Windows&lt;/h2>
 &lt;h3 id="winget">Winget&lt;/h3>
-&lt;p>&lt;a href="https://github.com/microsoft/winget-cli">Winget&lt;/a> for Windows&lt;/p></description></item><item><title>Learn how to configure k9s</title><link>https://k9sdoc.keg.im/docs/configuration/k9s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/k9s/</guid><description>&lt;h2 id="under-the-hood">Under the hood&lt;/h2>
+&lt;p>&lt;a href="https://github.com/microsoft/winget-cli">Winget&lt;/a> for Windows&lt;/p></description></item><item><title>🐕 Learn how to configure k9s</title><link>https://k9sdoc.keg.im/docs/configuration/k9s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/k9s/</guid><description>&lt;h2 id="under-the-hood">Under the hood&lt;/h2>
 &lt;p>K9s leverages &lt;a href="https://specifications.freedesktop.org/basedir-spec/latest/">XDG&lt;/a> to keep its configuration files under &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code>. The default configuration will vary across operating system so be sure to read up on the default location if you choose not to set that environment variable. The main configuration file is named config.yaml and stores various K9s specific bits.&lt;/p>
 &lt;p>For information on the default locations for your OS please see &lt;a href="https://github.com/adrg/xdg/blob/master/README.md">this link&lt;/a>. If you are still confused a quick k9s info will reveal where k9s is loading its configurations from.&lt;/p></description></item><item><title>Running with Docker</title><link>https://k9sdoc.keg.im/docs/getting-started/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/docker/</guid><description>&lt;h2 id="running-with-docker">Running with Docker&lt;/h2>
 &lt;h3 id="running-the-official-docker-image">Running the official Docker image&lt;/h3>
 &lt;p>You can run k9s as a Docker container by mounting your &lt;code>KUBECONFIG&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker run --rm -it -v $KUBECONFIG:/root/.kube/config quay.io/derailed/k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker run --rm -it -v &lt;span style="color:#dc8a78">$KUBECONFIG&lt;/span>:/root/.kube/config quay.io/derailed/k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For default path it would be:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker run --rm -it -v ~/.kube/config:/root/.kube/config quay.io/derailed/k9s
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker run --rm -it -v ~/.kube/config:/root/.kube/config quay.io/derailed/k9s
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="building-your-own-docker-image">Building your own Docker image&lt;/h3>
 &lt;p>You can build your own Docker image of k9s from the &lt;a href="Dockerfile">Dockerfile&lt;/a> with the following:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker build -t k9s-docker:v0.0.1 .
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#4c4f69;background-color:#eff1f5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>docker build -t k9s-docker:v0.0.1 .
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can get the latest stable &lt;code>kubectl&lt;/code> version and pass it to the &lt;code>docker build&lt;/code> command with the &lt;code>--build-arg&lt;/code> option.
-You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code>kubectl&lt;/code> version (like &lt;code>v1.18.0&lt;/code> or &lt;code>v1.19.1&lt;/code>).&lt;/p></description></item><item><title>Make it prettier!</title><link>https://k9sdoc.keg.im/docs/configuration/skins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/skins/</guid><description/></item><item><title>Learn how to configure k9s</title><link>https://k9sdoc.keg.im/docs/getting-started/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/configuration/</guid><description>&lt;p>An extended configuration guide can be found at &lt;a href="https://k9sdoc.keg.im/docs/configuration/">Configuration&lt;/a>.&lt;/p>
-&lt;p>You can also jump right-into a specific topic such as:&lt;/p>
+You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code>kubectl&lt;/code> version (like &lt;code>v1.18.0&lt;/code> or &lt;code>v1.19.1&lt;/code>).&lt;/p></description></item><item><title>💅 Make it prettier!</title><link>https://k9sdoc.keg.im/docs/configuration/skins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/skins/</guid><description/></item><item><title>Learn how to configure k9s</title><link>https://k9sdoc.keg.im/docs/getting-started/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/configuration/</guid><description>&lt;p>An extended configuration guide can be found under &lt;a href="https://k9sdoc.keg.im/docs/configuration/">Configuration&lt;/a>.&lt;/p>
+&lt;p>You can also jump right into a specific topic, such as:&lt;/p>
 &lt;ul>
-&lt;li>Styling k9s with &lt;a href="https://k9sdoc.keg.im/docs/configuration/skins/">Skins&lt;/a>&lt;/li>
-&lt;li>Be faster with resource &lt;a href="https://k9sdoc.keg.im/docs/configuration/aliases/">Aliases&lt;/a>&lt;/li>
-&lt;li>Per-cluster settings via &lt;a href="https://k9sdoc.keg.im/docs/configuration/cluster/">Cluster settings&lt;/a>&lt;/li>
-&lt;li>Custom keyboard shortcuts via &lt;a href="https://k9sdoc.keg.im/docs/configuration/hotkeys/">Hotkeys&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Define hotkeys for maximum productivity!</title><link>https://k9sdoc.keg.im/docs/configuration/hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/hotkeys/</guid><description/></item><item><title>Custom Resource Aliases</title><link>https://k9sdoc.keg.im/docs/configuration/aliases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/aliases/</guid><description>&lt;h2 id="auto-suggestion">Auto Suggestion&lt;/h2>
+&lt;li>styling k9s with &lt;a href="https://k9sdoc.keg.im/docs/configuration/skins/">Skins&lt;/a>&lt;/li>
+&lt;li>being faster with resource &lt;a href="https://k9sdoc.keg.im/docs/configuration/aliases/">Aliases&lt;/a>&lt;/li>
+&lt;li>per-cluster settings via &lt;a href="https://k9sdoc.keg.im/docs/configuration/cluster/">Cluster settings&lt;/a>&lt;/li>
+&lt;li>custom keyboard shortcuts via &lt;a href="https://k9sdoc.keg.im/docs/configuration/hotkeys/">Hotkeys&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>🔑 Define hotkeys for maximum productivity!</title><link>https://k9sdoc.keg.im/docs/configuration/hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/hotkeys/</guid><description>&lt;p>Entering the command mode and typing a resource name or alias could be cumbersome for navigating thru often visited resources. By leveraging &lt;code>hotkeys&lt;/code>, k9s can be configured to quickly navigate to your favorite resources. In order to enable hotkeys please follow these steps:&lt;/p>
+&lt;ul>
+&lt;li>Create a file named &lt;code>$XDG_DATA_HOME/k9s/hotkeys.yaml&lt;/code>&lt;/li>
+&lt;li>Add thehotkeys to your new and shiny &lt;code>hotkeys.yaml&lt;/code> ✨&lt;/li>
+&lt;/ul>
+&lt;section class="k9s-content-info k9s-content-info-info">
+ &lt;div class="k9s-content-info__inner">
+ 
+ &lt;span class="k9s-content-info__title">Tip&lt;/span>
+ 
+ 
+You can use resource names and short name to specify a command the same way as if typed in &lt;a href='https://k9sdoc.keg.im/docs/getting-started/modes/#command-mode'>command mode&lt;/a>.
+
+ &lt;/div>
+&lt;/section>
+&lt;p>Not feeling so hot? Your custom hotkeys will be listed in the help view &lt;code>?&lt;/code>. Also your hotkey file will be automatically reloaded so you can readily use your hotkeys as you define them.&lt;/p></description></item><item><title>🥸 Custom Resource Aliases</title><link>https://k9sdoc.keg.im/docs/configuration/aliases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/aliases/</guid><description>&lt;h2 id="auto-suggestion">Auto Suggestion&lt;/h2>
 &lt;p>k9s command mode supports autosuggestions. Suggestions are based on supported Kubernetes resource in singular/plural as well as short names and command aliases as describe below. The command mode supports the following keys:&lt;/p>
 &lt;table>
  &lt;thead>
@@ -66,7 +81,14 @@ You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="aliases">Aliases&lt;/h2>
-&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description/></item><item><title>content-info</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</guid><description>&lt;p>A note-like container providing additional context or important information.&lt;/p>
+&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>Learn about the different k9s modes</title><link>https://k9sdoc.keg.im/docs/getting-started/modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/modes/</guid><description>&lt;p>Like &lt;code>vim&lt;/code> k9s is text-based and commands are typed in. A command can be a sequenz of keys or a single key, for example &lt;code>CTRL + :&lt;/code> means hit the &lt;code>CTRL&lt;/code> key and &lt;code>:&lt;/code> key. Just &lt;code>/&lt;/code> means &amp;ldquo;Hit the &lt;code>/&lt;/code> key&amp;rdquo;, which may be multiple keys depending on your keyboard layout.&lt;/p>
+&lt;h2 id="command-mode">Command mode&lt;/h2>
+&lt;p>&lt;strong>Shortcuts:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>CMD + :&lt;/code> (MacOS)&lt;/li>
+&lt;li>&lt;code>CTRL + :&lt;/code> (Windows / Linux)&lt;/li>
+&lt;/ul>
+&lt;p>Opens a prompt where commands can be entered.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description/></item><item><title>content-info</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</guid><description>&lt;p>A note-like container providing additional context or important information.&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
  &lt;thead>
