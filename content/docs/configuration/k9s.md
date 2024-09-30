@@ -1,5 +1,5 @@
 ---
-title: "Learn how to configure k9s"
+title: "🐕 Learn how to configure k9s"
 linkTitle: "k9s"
 type: docs
 weight: 10 #<-- weight for pages under /docs/congiguration/
@@ -67,4 +67,4 @@ This is still in flux and will change while in pre-release stage!
 
 ## Example config file
 
-{{< readfile "/shared/k9s-default-config.md" >}}
+{{< readfile "/shared/configs/k9s-default-config.md" >}}

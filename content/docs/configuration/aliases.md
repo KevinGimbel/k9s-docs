@@ -1,5 +1,5 @@
 ---
-title: "Custom Resource Aliases"
+title: "🥸 Custom Resource Aliases"
 linkTitle: "Aliases"
 type: docs
 weight: 30 #<-- weight for pages under /docs/congiguration/
@@ -27,3 +27,9 @@ Aliases can be defined a two levels: global and context specific. At the global 
 {{< content-info title="Warning" color="warning" >}}
 As of v0.30.0 this file must have a `.yaml` extension. Also note the file name is pluralize as well as the top section of the section aka `aliases`
 {{< /content-info >}}
+
+## Example
+
+The key is always the shortcut, the value the resource. So for example `pr: prometheusrule` defines `pr` as shortcut for the custom resource definition `prometheusrule`.
+
+{{< readfile "/shared/configs/aliases.md" >}}

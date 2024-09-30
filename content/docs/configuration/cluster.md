@@ -1,5 +1,5 @@
 ---
-title: "Use k9s' per-cluster configuration"
+title: "☸️ Use k9s' per-cluster configuration"
 linkTitle: "Cluster"
 type: docs
 weight: 80 #<-- weight for pages under /docs/congiguration/
