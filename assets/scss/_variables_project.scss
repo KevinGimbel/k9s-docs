@@ -4,3 +4,37 @@ $light: #ffffff;
 
 $google_font_name: 'Open Sans';
 $google_font_family: 'Open+Sans:300,300i,400,400i,700,700i';
+
+.td-content p code, .td-content li > code, .td-content table code {
+    color: $secondary !important;
+}
+
+
+// CUSTOM SHORTCODE content-info
+.k9s-content-info + .k9s-content-info {
+    margin-top: 1rem;
+}
+
+.k9s-content-info-warning {
+    background-color: var(--bs-warning-bg-subtle);
+    border-left: .25rem solid var(--bs-orange);
+}
+
+.k9s-content-info-info {
+    background-color: var(--bs-primary-bg-subtle);
+    border-left: .25rem solid var(--bs-blue);
+}
+
+.k9s-content-info-error {
+    background-color: var(--bs-danger-bg-subtle);
+    border-left: .25rem solid var(--bs-red);
+}
+
+.k9s-content-info__inner {
+    padding: 1rem;
+}
+
+.k9s-content-info__title {
+    display: block;
+    font-weight: bold;
+}

@@ -1,0 +1,8 @@
+<section class="k9s-content-info k9s-content-info-{{ .Params.color }}">
+    <div class="k9s-content-info__inner">
+        {{ with .Params.title }}
+            <span class="k9s-content-info__title">{{ . }}</span>
+        {{ end }}
+        {{ .Inner | safeHTML }}
+    </div>
+</section>
