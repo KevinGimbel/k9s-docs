@@ -4,7 +4,6 @@ linkTitle: Documentation
 menu:
     main:
         weight: 30
-toc_hide: true
 weight: 1
 ---
 

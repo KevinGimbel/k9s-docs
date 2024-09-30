@@ -2,7 +2,7 @@
 title: "Installation"
 linkTitle: "Installation"
 type: docs
-weight: 10
+weight: 10 #<-- weight for pages under /docs/getting-started/
 description: All you need to know to install k9s
 ---
 
