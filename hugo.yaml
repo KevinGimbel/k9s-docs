@@ -32,6 +32,10 @@ params:
         icon: fab fa-slack
         desc: Join our Slack channel to chat with other users
 
+markup:
+  highlight:
+    style: catppuccin-latte
+
 # Menu Icons use Font-Awesome, search for icons at https://fontawesome.com/search
 # and copy the relevant HTML into the "pre" field.
 menu:
