@@ -6,13 +6,12 @@ description: >
     k9s has different modes and here's the info
 ---
 
-Like `vim` k9s is text-based and commands are typed in. A command can be a sequenz of keys or a single key, for example `CTRL + :` means hit the `CTRL` key and `:` key. Just `/` means "Hit the `/` key", which may be multiple keys depending on your keyboard layout.
+k9s is text-based and commands are typed in "Command mode". To enter command mode, type `:` which will open the command prompt.
 
 ## Command mode
 
 **Shortcuts:** 
-- `CMD + :` (MacOS) 
-- `CTRL + :` (Windows / Linux)
+- `:`
 
 Opens a prompt where commands can be entered.
 
@@ -27,7 +26,6 @@ k9s command mode supports autosuggestions. Suggestions are based on supported Ku
 | Tab, Ctrl-f, ➡️     | Accept the suggestion                      |
 
 ## Search mode
-
 
 **Shortcut:** 
 - `/`
