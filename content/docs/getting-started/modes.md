@@ -16,6 +16,16 @@ Like `vim` k9s is text-based and commands are typed in. A command can be a seque
 
 Opens a prompt where commands can be entered.
 
+### Auto Suggestion
+
+k9s command mode supports autosuggestions. Suggestions are based on supported Kubernetes resource in singular/plural as well as short names and command aliases as describe below. The command mode supports the following keys:
+
+| Key                | Description                                |
+|--------------------|--------------------------------------------|
+| ⬆️ ⬇️               | Navigate up or down thru the suggestions   |
+| Ctrl-w, Ctrl-u     | Clear out the command                      |
+| Tab, Ctrl-f, ➡️     | Accept the suggestion                      |
+
 ## Search mode
 
 
