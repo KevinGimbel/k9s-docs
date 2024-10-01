@@ -61,14 +61,39 @@ You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code
 &lt;dd>&lt;code>aliases&lt;/code> top-level object with &lt;code>key-value&lt;/code> pairs&lt;/dd>
 &lt;/dl>
 &lt;h2 id="aliases">Aliases&lt;/h2>
-&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>Learn about the different k9s modes</title><link>https://k9sdoc.keg.im/docs/getting-started/modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/modes/</guid><description>&lt;p>Like &lt;code>vim&lt;/code> k9s is text-based and commands are typed in. A command can be a sequenz of keys or a single key, for example &lt;code>CTRL + :&lt;/code> means hit the &lt;code>CTRL&lt;/code> key and &lt;code>:&lt;/code> key. Just &lt;code>/&lt;/code> means &amp;ldquo;Hit the &lt;code>/&lt;/code> key&amp;rdquo;, which may be multiple keys depending on your keyboard layout.&lt;/p>
+&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>Learn about the different k9s modes</title><link>https://k9sdoc.keg.im/docs/getting-started/modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/getting-started/modes/</guid><description>&lt;p>k9s is text-based and commands are typed in &amp;ldquo;Command mode&amp;rdquo;. To enter command mode, type &lt;code>:&lt;/code> which will open the command prompt.&lt;/p>
 &lt;h2 id="command-mode">Command mode&lt;/h2>
 &lt;p>&lt;strong>Shortcuts:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>CMD + :&lt;/code> (MacOS)&lt;/li>
-&lt;li>&lt;code>CTRL + :&lt;/code> (Windows / Linux)&lt;/li>
+&lt;li>&lt;code>:&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>Opens a prompt where commands can be entered.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description>&lt;h2 id="quick-overview">Quick overview&lt;/h2>
+&lt;p>Opens a prompt where commands can be entered.&lt;/p>
+&lt;h3 id="auto-suggestion">Auto Suggestion&lt;/h3>
+&lt;p>k9s command mode supports autosuggestions. Suggestions are based on supported Kubernetes resource in singular/plural as well as short names and command aliases as describe below. The command mode supports the following keys:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Key&lt;/th>
+ &lt;th style="text-align: left">Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">⬆️ ⬇️&lt;/td>
+ &lt;td style="text-align: left">Navigate up or down thru the suggestions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Ctrl-w, Ctrl-u&lt;/td>
+ &lt;td style="text-align: left">Clear out the command&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Tab, Ctrl-f, ➡️&lt;/td>
+ &lt;td style="text-align: left">Accept the suggestion&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="search-mode">Search mode&lt;/h2>
+&lt;p>&lt;strong>Shortcut:&lt;/strong>&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description>&lt;h2 id="quick-overview">Quick overview&lt;/h2>
 &lt;ul>
 &lt;li>k9s can use per-cluster config files which overwrite the global configuration in &lt;code>$XDG_DATA_HOME/k9s&lt;/code>&lt;/li>
 &lt;li>Base path &lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/&lt;/code> where &lt;code>cluster-x&lt;/code> is the cluster name and &lt;code>context-y&lt;/code> the context&lt;/li>
