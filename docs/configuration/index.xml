@@ -20,4 +20,18 @@
 &lt;dd>&lt;code>aliases&lt;/code> top-level object with &lt;code>key-value&lt;/code> pairs&lt;/dd>
 &lt;/dl>
 &lt;h2 id="aliases">Aliases&lt;/h2>
-&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description/></item></channel></rss>
+&lt;p>In k9s, you can define your very own command aliases (short-names) to access your resources. In your &lt;code>$XDG_CONFIG_HOME/k9s&lt;/code> define a file called aliases.yaml. A k9s alias defines pairs of &lt;code>alias:gvr&lt;/code> or &lt;code>alias:command&lt;/code>. A &lt;code>gvr&lt;/code> (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. The command can be any commands that you would normally use while in command prompt mode.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description>&lt;h2 id="quick-overview">Quick overview&lt;/h2>
+&lt;ul>
+&lt;li>k9s can use per-cluster config files which overwrite the global configuration in &lt;code>$XDG_DATA_HOME/k9s&lt;/code>&lt;/li>
+&lt;li>Base path &lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/&lt;/code> where &lt;code>cluster-x&lt;/code> is the cluster name and &lt;code>context-y&lt;/code> the context&lt;/li>
+&lt;li>All config files can be placed in a sub-directory for cluster specific configuration.
+&lt;ul>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/config.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/skin.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/aliases.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/hotkeys.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/plugins.yaml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2></description></item></channel></rss>

@@ -68,7 +68,21 @@ You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code
 &lt;li>&lt;code>CMD + :&lt;/code> (MacOS)&lt;/li>
 &lt;li>&lt;code>CTRL + :&lt;/code> (Windows / Linux)&lt;/li>
 &lt;/ul>
-&lt;p>Opens a prompt where commands can be entered.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description/></item><item><title>content-info</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</guid><description>&lt;p>A note-like container providing additional context or important information.&lt;/p>
+&lt;p>Opens a prompt where commands can be entered.&lt;/p></description></item><item><title>☸️ Use k9s' per-cluster configuration</title><link>https://k9sdoc.keg.im/docs/configuration/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/cluster/</guid><description>&lt;h2 id="quick-overview">Quick overview&lt;/h2>
+&lt;ul>
+&lt;li>k9s can use per-cluster config files which overwrite the global configuration in &lt;code>$XDG_DATA_HOME/k9s&lt;/code>&lt;/li>
+&lt;li>Base path &lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/&lt;/code> where &lt;code>cluster-x&lt;/code> is the cluster name and &lt;code>context-y&lt;/code> the context&lt;/li>
+&lt;li>All config files can be placed in a sub-directory for cluster specific configuration.
+&lt;ul>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/config.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/skin.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/aliases.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/hotkeys.yaml&lt;/code>&lt;/li>
+&lt;li>&lt;code>$XDG_DATA_HOME/k9s/cluster-x/context-y/plugins.yaml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2></description></item><item><title>content-info</title><link>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/internal/shortcodes/content-info/</guid><description>&lt;p>A note-like container providing additional context or important information.&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
  &lt;thead>
