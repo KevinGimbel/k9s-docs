@@ -6,6 +6,9 @@ weight: 40 #<-- weight for pages under /docs/congiguration/
 description: >
     k9s + your-fav-tool = 💞
 ---
+{{< content-info title="Warning" color="warning" >}}
+Work in progress... Options and layout may change in future K9s releases as this feature solidifies.
+{{< /content-info >}}
 
 K9s allows you to extend your command line and tooling by defining your very own cluster commands via plugins. K9s looks at `$XDG_CONFIG_HOME/k9s/plugins.yaml` to locate all available plugins. You can further extend plugins behavior in a context specific configuration using `$XDG_DATA_HOME/k9s/clusters/clusterX/contextY/plugins.yaml`.
 
