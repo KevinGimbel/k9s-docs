@@ -1,6 +1,6 @@
 baseURL: 'https://k9sdoc.keg.im'
 languageCode: 'en-us'
-title: k9s Documentation PREVIEW
+title: Unofficial k9s Documentation
 
 contentDir: content
 
@@ -11,7 +11,7 @@ params:
   ui:
     showLightDarkModeMenu: true
   
-  github_repo: "https://github.com/derailed/k9s-docs" # Repo where the site lives
+  github_repo: "https://github.com/KevinGimbel/k9s-docs" # Repo where the site lives
   github_project_repo: "https://github.com/derailed/k9s" # Repo where the project lives
   copyright:
     authors: k9s Docs Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)

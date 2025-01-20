@@ -21,33 +21,33 @@ Alternatively, you can set `K9S_CONFIG_DIR` to tell k9s the directory location t
 
 ## k9s CLI configuration
 
-{{% pageinfo color="warning" %}}
+{{< content-info color="warning" >}}
 This is still in flux and will change while in pre-release stage!
-{{% /pageinfo %}}
+{{< /content-info >}}
 
-| Option                  | Comment / Description  |  Default |
-|-------------------------|---------------------------------------------------------------------------------------|----------------|
-| liveViewAutoRefresh                   | Enable periodic refresh of resource browser windows.| `false` |
-| refreshRate                           | Represents ui poll intervals.| `2s` |
-| maxConnRetry                          | Number of retries once the connection to the api-server is lost.| `15` |
-| readOnly                              | Specifies if modification commands like delete/kill/edit are disabled.| `false` |
-| noExitOnCtrlC                         | Toggles whether k9s should exit when CTRL-C is pressed.| `false` |
-| ui.enableMouse                        | Enable mouse support.| `false` |
-| ui.headless                           | Set to true to hide K9s header.| `false` |                        
-| ui.logoless                           | Set to true to hide K9s logo.| `false` |                           
-| ui.crumbsless                         | Set to true to hide K9s crumbs.| `false` |
-| ui.reactive                           | Toggles reactive UI.|`false` |              
-| ui.noIcons                            | Toggles icons / emoji display as not all terminal support these chars | `false` | 
-| skipLatestRevCheck                    | Toggles whether k9s should check for the latest revision from the Github repository releases. | `false` |
-| disablePodCounting                    | Disable count pods while in node view.| `false` |
-| shellPod.image                        | The shell pod image to use | `busybox:1.35.0` |
-| shellPod.namespace                    | The namespace to launch to shell pod into | `default` |
-| shellPod.limits.cpu                   | CPU limit on the shell pod | `100m`|
-| shellPod.limits.memory                | Memory limit on the shell pod | `100Mi` |
-| shellPod.tty                          | Enable TTY | `true` |
-| imageScans.enable                     | Enables image scans | `false` |
-| imageScans.exclusions.namespaces      | List of namespaces to exclude |  |
-| imageScans.exclusions.labels          | Key-Value pairs of labels to exclude |  |
+| Option                           | Comment / Description                                                                 |  Default       |
+|----------------------------------|---------------------------------------------------------------------------------------|----------------|
+| liveViewAutoRefresh              | Enable periodic refresh of resource browser windows.| `false` |
+| refreshRate                      | Represents ui poll intervals.| `2s` |
+| maxConnRetry                     | Number of retries once the connection to the api-server is lost.| `15` |
+| readOnly                         | Specifies if modification commands like delete/kill/edit are disabled.| `false` |
+| noExitOnCtrlC                    | Toggles whether k9s should exit when CTRL-C is pressed.| `false` |
+| ui.enableMouse                   | Enable mouse support.| `false` |
+| ui.headless                      | Set to true to hide K9s header.| `false` |                        
+| ui.logoless                      | Set to true to hide K9s logo.| `false` |                           
+| ui.crumbsless                    | Set to true to hide K9s crumbs.| `false` |
+| ui.reactive                      | Toggles reactive UI.|`false` |              
+| ui.noIcons                       | Toggles icons / emoji display as not all terminal support these chars | `false` | 
+| skipLatestRevCheck               | Toggles whether k9s should check for the latest revision from the Github repository releases. | `false` |
+| disablePodCounting               | Disable count pods while in node view.| `false` |
+| shellPod.image                   | The shell pod image to use | `busybox:1.35.0` |
+| shellPod.namespace               | The namespace to launch to shell pod into | `default` |
+| shellPod.limits.cpu              | CPU limit on the shell pod | `100m`|
+| shellPod.limits.memory           | Memory limit on the shell pod | `100Mi` |
+| shellPod.tty                     | Enable TTY | `true` |
+| imageScans.enable                | Enables image scans | `false` |
+| imageScans.exclusions.namespaces | List of namespaces to exclude |  |
+| imageScans.exclusions.labels     | Key-Value pairs of labels to exclude |  |
 
 
 ## @TODO: rewrite/reformat/etc
