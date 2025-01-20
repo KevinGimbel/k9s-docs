@@ -93,7 +93,17 @@ You can use the &lt;code>--build-arg&lt;/code> option to pass any valid &lt;code
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="search-mode">Search mode&lt;/h2>
-&lt;p>&lt;strong>Shortcut:&lt;/strong>&lt;/p></description></item><item><title>🔌 Define plugins to integrate tools with k9s</title><link>https://k9sdoc.keg.im/docs/configuration/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/plugins/</guid><description>&lt;p>K9s allows you to extend your command line and tooling by defining your very own cluster commands via plugins. K9s looks at &lt;code>$XDG_CONFIG_HOME/k9s/plugins.yaml&lt;/code> to locate all available plugins. You can further extend plugins behavior in a context specific configuration using &lt;code>$XDG_DATA_HOME/k9s/clusters/clusterX/contextY/plugins.yaml&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>Shortcut:&lt;/strong>&lt;/p></description></item><item><title>🔌 Define plugins to integrate tools with k9s</title><link>https://k9sdoc.keg.im/docs/configuration/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://k9sdoc.keg.im/docs/configuration/plugins/</guid><description>&lt;section class="k9s-content-info k9s-content-info-warning">
+ &lt;div class="k9s-content-info__inner">
+ 
+ &lt;span class="k9s-content-info__title">Warning&lt;/span>
+ 
+ 
+Work in progress... Options and layout may change in future K9s releases as this feature solidifies.
+
+ &lt;/div>
+&lt;/section>
+&lt;p>K9s allows you to extend your command line and tooling by defining your very own cluster commands via plugins. K9s looks at &lt;code>$XDG_CONFIG_HOME/k9s/plugins.yaml&lt;/code> to locate all available plugins. You can further extend plugins behavior in a context specific configuration using &lt;code>$XDG_DATA_HOME/k9s/clusters/clusterX/contextY/plugins.yaml&lt;/code>.&lt;/p>
 &lt;p>A plugin is defined as follows:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>shortcut&lt;/code>: option represents the key combination a user would type to activate the plugin&lt;/li>
